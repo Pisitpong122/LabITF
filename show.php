@@ -18,7 +18,8 @@
     }
     $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     ?>
-    <center><table width="600" border="1"></center>
+    <div class="table-responsive">
+    <table class="table-responsive">
         <tr>
             <th width="100">
                 <div align="center">Name</div>
@@ -42,6 +43,7 @@
         }
         ?>
     </table>
+    </div>
     <center><a href="form.html"><input type="submit" value="INSERT" class="btn btn-success"></a></center>
     <?php
     mysqli_close($conn);
