@@ -36,13 +36,13 @@
             <tr>
                 <td><?php echo $Result['name']; ?></div></td>
                 <td><?php echo $Result['comment']; ?></td>
-                <td><center><a href="form edit.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="form delete.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
+                <td><center><a href="formedit.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="formdel.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
             </tr>
         <?php
         }
         ?>
     </table>
-    <center><a href="form insert.html"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
+    <center><a href="form.html"><input type="submit" value="INSERT" class="btn btn-success"></a></center>
     <?php
     mysqli_close($conn);
     ?>
