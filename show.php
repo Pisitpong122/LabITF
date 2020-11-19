@@ -21,7 +21,7 @@
     <div class="table-responsive">
     <table class="table">
         <tr>
-            <th width="100">
+            <th width="200">
                 <div align="center">Name</div>
             </th>
             <th width="350">
