@@ -19,7 +19,7 @@
     $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     ?>
     <div class="table-responsive">
-    <table class="table-responsive">
+    <table class="table">
         <tr>
             <th width="100">
                 <div align="center">Name</div>
