@@ -10,10 +10,9 @@ if (mysqli_connect_errno($conn))
 
 $name = $_POST['name'];
 $comment = $_POST['comment'];
-$link = $_POST['link'];
 
 
-$sql = "UPDATE WHERE guestbook (name , comment , link) VALUES ('$name', '$comment', '$link')";
+$sql = "UPDATE WHERE guestbook (name , comment) VALUES ('$name', '$comment')";
 
 
 if (mysqli_query($conn, $sql)) {
