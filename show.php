@@ -44,6 +44,7 @@
         ?>
     </table>
     </div>
+    <br>
     <center><a href="form.html"><input type="submit" value="INSERT" class="btn btn-success"></a></center>
     <?php
     mysqli_close($conn);
