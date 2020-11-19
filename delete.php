@@ -12,7 +12,7 @@ $name = $_POST['name'];
 $comment = $_POST['comment'];
 
 
-$sql = "DELETE FROM guestbook (name , comment , link) VALUES ('$name', '$comment')";
+$sql = "DELETE FROM guestbook (name , comment) VALUES ('$name', '$comment')";
 
 
 if (mysqli_query($conn, $sql)) {
