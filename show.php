@@ -42,6 +42,7 @@
         }
         ?>
     </table>
+    <center><a href="form insert.html"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
     <?php
     mysqli_close($conn);
     ?>
