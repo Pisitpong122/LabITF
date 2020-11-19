@@ -12,7 +12,7 @@ $name = $_POST['name'];
 $comment = $_POST['comment'];
 
 
-$sql = "UPDATE WHERE guestbook (name , comment) VALUES ('$name', '$comment')";
+$sql = "UPDATE WHERE guestbook SET Comment='$comment' WHERE Name='$name'";
 
 
 if (mysqli_query($conn, $sql)) {
