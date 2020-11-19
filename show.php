@@ -36,7 +36,7 @@
             <tr>
                 <td><?php echo $Result['name']; ?></div></td>
                 <td><?php echo $Result['comment']; ?></td>
-                <td><button type="button" class="btn btn-warning">Warning</button></td>
+                <td><center><a href="form edit.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="form delete.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
             </tr>
         <?php
         }
